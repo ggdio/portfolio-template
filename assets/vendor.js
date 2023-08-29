@@ -6146,7 +6146,7 @@ else o(i,a,s)
 else if(Array.isArray(s))for(u=0,l=s.length;u<l;u++)o(i,s[u].name,s[u].value)
 else for(c in s)e(c,s[c])
 return i}("",e).join("&").replace(/%20/g,"+")}function o(e,t,n){void 0!==n&&(null===n&&(n=""),n="function"==typeof n?n():n,e[e.length]="".concat(encodeURIComponent(t),"=").concat(encodeURIComponent(n)))}var a=i
-e.default=a})),define("ember-get-config/index",["exports","portfolio-template/config/environment"],(function(e,t){"use strict"
+e.default=a})),define("ember-get-config/index",["exports","simplefolio-ember/config/environment"],(function(e,t){"use strict"
 Object.defineProperty(e,"__esModule",{value:!0}),Object.defineProperty(e,"default",{enumerable:!0,get:function(){return t.default}})})),define("ember-load-initializers/index",["exports","require"],(function(e,t){"use strict"
 function n(e){var n=(0,t.default)(e,null,null,!0)
 if(!n)throw new Error(e+" must export an initializer.")
