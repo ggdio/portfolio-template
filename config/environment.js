@@ -4,7 +4,7 @@ module.exports = function(environment) {
   let ENV = {
     modulePrefix: 'simplefolio-ember',
     environment,
-    rootURL: '/',
+    rootURL: '/portfolio-template',
     locationType: 'auto',
     EmberENV: {
       FEATURES: {
